@@ -1,6 +1,7 @@
 test:
  override:
-   parallel: true
+   - mvn integration-test:
+        parallel: true
         
  post:
    - mkdir -p $CIRCLE_TEST_REPORTS/junit/
