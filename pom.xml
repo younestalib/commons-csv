@@ -179,6 +179,7 @@ CSV files of various types.
             <exclude>**/perf/PerformanceTest.java</exclude>
           </excludes>
           <parallel>methods</parallel>  
+          <useUnlimitedThreads>true</useUnlimitedThreads>   
         </configuration>
       </plugin>
       <!-- Allow checkstyle to be run interactively; keep in sync with report config below -->
